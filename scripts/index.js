@@ -160,7 +160,7 @@ const editTask = (e) => {
 
   taskTitle = parentNode.childNodes[3].childNodes[3];
   taskDescription = parentNode.childNodes[3].childNodes[5];
-  taskType = parentNode.childNodes[5].childNodes[7].childNodes[1];
+  taskType = parentNode.childNodes[3].childNodes[7].childNodes[1];
   submitButton = parentNode.childNodes[5].childNodes[1];
 
   taskTitle.setAttribute("contenteditable", "true");
