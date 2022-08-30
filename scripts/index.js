@@ -173,7 +173,7 @@ const editTask = (e) => {
   submitButton.innerHTML = "Save Changes";
 };
 
-const saveEdite = (e) => {
+const saveEdit = (e) => {
   if (!e) e = windows.event;
   const targetID = e.target.id;
   const parentNode = e.target.parentNode.parentNode;
